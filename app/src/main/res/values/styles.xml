@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="rating">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="movie_title">
+        viewEnd
+        16dp
+        28sp
+        @color/colorAccent
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="movie_poster">
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="label_rating">
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+    <style name="reviewed_by_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="movie_vids_text_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">@dimen/fab_margin</item>
+    </style>
+
+</resources>

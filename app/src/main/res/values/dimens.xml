@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">8dp</dimen>
+    <dimen name="picture_h_detail">350dp</dimen>
+    <dimen name="picture_w_detail">400dp</dimen>
+    <dimen name="tittle_item_text_size">14sp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="item_ll_poster_and_tittle_padright">16dp</dimen>
+    <dimen name="item_ll_main">16dp</dimen>
+    <dimen name="maxlines">2</dimen>
+    <dimen name="minlines">2</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="play_but_w">50dp</dimen>
+</resources>

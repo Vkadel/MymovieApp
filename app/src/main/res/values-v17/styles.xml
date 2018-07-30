@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="movie_title">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="rating">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="label_rating">
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/item_ll_main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/item_ll_poster_and_tittle_padright">
+
+        <ImageView
+            android:id="@+id/iv_poster_item"
+            android:layout_width="@dimen/picture_w"
+            android:layout_height="@dimen/picture_h"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_tittle_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:maxLines="2"
+            android:minLines="2"
+            android:padding="@dimen/fab_margin"
+            android:text="Movie tittle"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/tittle_item_text_size" />
+        <Button
+            android:layout_marginStart="@dimen/fab_margin"
+            android:padding="@dimen/fab_margin"
+            android:id="@+id/fab_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/Favorite"
+            android:layout_weight="1"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dp"
+            android:background="@android:color/white" />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_divider_side"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

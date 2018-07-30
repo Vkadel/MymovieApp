@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@string/preference_sort_by_rating_default"
+        android:key="@string/preference_sort_by_rating_key"
+        android:title="@string/preference_sort_by_rating_label" />
+    <CheckBoxPreference
+        android:defaultValue="@string/preference_sort_by_popularity_default"
+        android:key="@string/preference_sort_by_popularity_key"
+        android:title="@string/preference_sort_by_popularity_label" />
+</PreferenceScreen>
